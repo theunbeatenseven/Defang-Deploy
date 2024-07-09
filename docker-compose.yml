@@ -1,0 +1,15 @@
+services:
+  web:
+    restart: unlesss-stopped
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - target: 3000
+        mode: ingress
+        published: 3000
+    deploy:
+      resources:
+        limits:
+          cpus: "0.50"
+          memory: 512M

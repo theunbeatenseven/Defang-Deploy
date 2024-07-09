@@ -34,10 +34,6 @@ const Hero = () => {
                     Hello, I&apos;m Harinandan :)
                 </p>
                 <a href="https://docs.defang.io/docs/intro">
-                    <MagicButton 
-                        title="Defang Docs"
-                        
-                    />
                 </a>
             </div>
         </div>
